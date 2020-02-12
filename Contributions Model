@@ -1,0 +1,13 @@
+public class Contributions
+    {
+        public int ContributionID { get; set; }
+        public string UWType { get; set; }
+        public int UWMonthly { get; set; }
+        public int UWMonths { get; set; }
+        public int UWContributionAmount { get; set; }
+        public int UWYear { get; set; }
+        public DateTime UWDateCreated { get; set; } = DateTime.Now;
+        public DateTime UWLastEdited { get; set; } = DateTime.Now;
+
+    }
+}
