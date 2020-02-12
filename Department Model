@@ -1,0 +1,12 @@
+ public class DepartmentModel
+    {
+        public int OrgCode { get; set; }
+        public int UWCoordinator3 { get; set; }
+        public int UWCoordinator2 { get; set; }
+        public int UWCoordinator1 { get; set; }
+        public int Division { get; set; }
+        public Boolean DepartmentStatus { get; set; } = true;
+        public DateTime DepartmentDateCreated { get; set; } = DateTime.Now;
+        public DateTime DepartmentLastEdited { get; set; } = DateTime.Now;
+    }
+}
